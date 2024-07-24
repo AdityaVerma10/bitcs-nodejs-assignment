@@ -1,0 +1,7 @@
+export const insert = "INSERT INTO CATS(name, age, breed) VALUES (?,?,?)"
+export const update = "UPDATE CATS SET name = ?, age = ?, breed = ? WHERE id = ?"
+export const remove = "DELETE FROM CATS WHERE id = ?"
+export const selectById = "SELECT * FROM CATS WHERE id =?"
+export const selectByAgeRange = "SELECT * FROM CATS WHERE age >= ? AND age <=?"
+export const count ="SELECT COUNT(*) AS count FROM cats"
+export const limitOffset ="SELECT * FROM cats LIMIT ? OFFSET ?"
